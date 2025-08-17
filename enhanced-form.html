@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enhanced Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mental health Organization</h1>
+              <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Our work</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+              </nav>
+        </header>
+        <section id="about">
+            <h2>Mental health awareness organisation</h2>
+            <p>We are a mental health awareness organisation funded in 2025 by Rethabile Chabisi</p>
+            <p>The organisation was founded to help residents of phumlamqashi informal settlement who are batlling with mental health problems.</p>
+        </section>
+        <section id="table">
+            <h2>Mental disorders by age and gender</h2>
+            <table boarder="1">
+                <thead>
+                    <tr>
+                        <th>Mental health disorder</th>
+                        <th>female</th>
+                        <th>Male</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Depression</td>
+                        <td>60%</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>Anxiety</td>
+                        <td>55%</td>
+                        <td>45%</td>
+                    </tr>
+                    <tr>
+                        <td>Schizophrenia</td>
+                        <td>30%</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Bipolar disorder</td>
+                        <td>40%</td>
+                        <td>60%</td>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="images">
+            <h2>Our work</h2>
+            <img src="E10U029.avif" alt="image of stressed girl" width="200">
+            <img src="E11825GQ.avif" alt="image of comforted girl" width="200">
+            <img src="E1028896.avif" alt="image of group therapy" width="200">
+        </section>
+
+        <audio controls>
+        <source src="meditation-blue-138131.mp3" type="audio/mpeg">
+        </audio>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form autocomplete="on">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required maxlength="20" pattern="[A-Za-z]"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required maxlength="20"><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message" required minlength="10" maxlength="60"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+    </body>
+    <footer>
+        <p>&copy; 2025 Mental Health Awareness Organisation by Rethabile Chabisi</p>
+</html>
